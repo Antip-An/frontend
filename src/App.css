@@ -1,6 +1,6 @@
 .header{
   display: flex;
-  
+  background-color: rgb(255, 255, 255);
   
 }
 
@@ -8,4 +8,5 @@
   padding: 20px;
   text-decoration: none;
   color: black;
+  
 }
