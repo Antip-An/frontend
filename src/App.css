@@ -1,12 +1,52 @@
 .header{
   display: flex;
+  
   background-color: rgb(255, 255, 255);
   
 }
 
 .header a{
-  padding: 20px;
+  margin: 1.5rem;
+  font-size: 18px;
   text-decoration: none;
   color: black;
   
+}
+
+.nav{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+
+  text-transform: uppercase; 
+  /* margin-left: auto; */
+  
+}
+
+.btn-primary{
+  color: white;
+  font-weight: bold;
+  background-color: #4C187A;
+  border: none;
+  margin: 0;
+  padding: 1em 2.5em;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  margin: 50px;
+
+}
+
+.req_container{
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
