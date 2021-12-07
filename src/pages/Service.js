@@ -1,7 +1,10 @@
+import Service_req from "./Service.req";
+
 function Service() {
+
     return (
       <>
-       <p>Service</p>
+       <Service_req/>
       </>
     );
   }
