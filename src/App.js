@@ -6,6 +6,7 @@ import Main from './pages/Main';
 import Portfolio from './pages/Portfolio';
 import Profile from './pages/Profile';
 import Service from './pages/Service';
+import Footer from "./Footer/Footer";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/service' element={<Service/>}/>
           <Route path='/profile' element={<Profile/>}/>
         </Routes>
+      <Footer/>
     </Router>
   );
 }
