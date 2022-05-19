@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  color: white;
+  padding: 1rem 0;
+}
+
+.footer a {
+  font-weight: bold;
+  color: white;
+}
+
+.footer span {
+  font-size: 1.3rem;
+  font-weight: 350;
+}

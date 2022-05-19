@@ -1,0 +1,73 @@
+.record-part-service {
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   height: 100vh;
+   background: url(../images/3.png) center;
+   background-size: cover;
+}
+
+.record-part-service button {
+   height: auto;
+   width: auto;
+   border-radius: 2rem;
+   border: none;
+   font-weight: bold;
+   text-transform: uppercase;
+   background: #bca4de;
+   cursor: pointer;
+   padding: 0.5rem 5rem;
+   margin-bottom: 8rem;
+}
+
+.service-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.service-item {
+   display: flex;
+   flex-direction: row;
+   height: auto;
+   margin: 5rem;
+}
+
+.service-item img {
+   height: 615px;
+   max-width: 500px;
+   min-width: 500px;
+}
+
+.service-item .text{
+   height: 550px;
+   width: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #cbb6d5;
+   padding: 2rem;
+   margin: 0 2rem;
+}
+
+.service-item .text h1{
+   font-size: 2.5rem;
+}
+
+.service-item .text p{
+   margin: 0.5rem 0;
+   line-height: 1.5rem;
+}
+
+.service-item .text li {
+   max-width: 400px;
+}
+
+.address {
+   margin: 1.5rem 0;
+}
+
+.address h1 {
+   font-weight: 350;
+}

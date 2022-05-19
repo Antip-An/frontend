@@ -1,0 +1,32 @@
+.profile-pic {
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   height: 50vh;
+   background: url(../images/1.png) center;
+   background-size: cover;
+}
+
+.profile-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.profile-content table{
+   border-collapse: collapse;
+}
+
+.profile-content table th{
+   padding: 1rem;
+   color: #faf8fb;
+   background-color: #330e53;
+}
+
+.profile-content tr td {
+   text-align: center;
+   text-transform: capitalize;
+   padding: 0.5rem;
+   border: black 1px solid
+}
